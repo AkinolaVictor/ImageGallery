@@ -1,0 +1,20 @@
+@media only screen and (max-width: 801px) {
+    
+    .abbout{
+        margin-top: 15vw;
+        
+    }
+
+    .abou{
+        border-radius: 1vw;
+    }
+
+}
+
+
+@media only screen and (max-width: 570px) {
+    .abbout{
+        margin-top: 25vw;
+        
+    }
+}

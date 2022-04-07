@@ -1,0 +1,69 @@
+.home{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.words> h1{
+    text-transform: uppercase;
+    font-size: calc(1px + 3.3vw);
+}
+
+div.words> p {
+    color: #A49393;
+    margin-top: 35px;
+    font-size: calc(1px + 2vw);
+    font-family: 'Jost', sans-serif;
+    padding-right: 80px;
+}
+
+div.words> p.guide{
+    margin-top: 70px;
+}
+
+.screen{
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 75px;
+    box-shadow: -3px -3px 5px white,
+                3px 3px 5px rgb(145, 141, 141),
+                inset -5px -5px 5px rgb(255, 255, 255),
+                inset 5px 5px 5px rgb(236, 200, 200);
+}
+
+.image{
+    border-radius: 10px;
+    margin-top: 0.7%;
+}
+
+.fill{
+    width: 98%;
+    height: 97%;
+    border-radius: 10px;
+    margin-top: 0.7%;
+    background: rgba(0, 0, 0, 0.486);
+    position: relative; 
+    top:-100%; 
+    left: 1.15%;
+    text-align: center;
+    padding-top: auto;
+}
+
+.youtb{
+    font-size: 100px;
+    color: red;
+    position: relative; 
+    top: 30%; 
+}
+
+.back{
+    background-color: wheat;
+    height: 50px;
+    width: 55px;
+    position: relative; 
+    top: 30%; 
+    left: 45%;
+}

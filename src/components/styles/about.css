@@ -1,0 +1,13 @@
+.abbout{
+    margin: auto;
+}
+
+.abou{
+    width: 30vw;
+    height: auto;
+    padding: 2vw 2vw 3vw 2vw;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 1vw;
+    margin-top: 3vw;
+}

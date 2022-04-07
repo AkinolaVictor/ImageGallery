@@ -1,0 +1,126 @@
+@media only screen and (max-width: 768px) {
+    .clickeD{
+        color: rgb(45, 65, 241);
+        font-weight: 600;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: row;
+    }
+
+    button{
+        font-size: 12px;
+    }
+
+    button.med{
+        border: none;
+        outline: none;
+        width: 30px;
+        height: 50px;
+        font-family: inherit;
+        /* margin-top: 20px; */
+        margin: -13px 10px 0 7px;
+        font-size: 12px;
+        padding: 0 8px;
+        background: none;
+        cursor: pointer;
+        /* transition: 0.6s; */
+        border-radius: 0px;
+        box-shadow: none;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* flex-direction: column; */
+    }
+
+    button.med>i{
+        display: none;
+    }
+
+    button.med:hover{
+        /* box-shadow: none;  */
+        /* transition: 0s; */
+        /* color: beige; */
+        font-size: 12px;
+    }
+
+    /* button.med:focus{
+        box-shadow: none; 
+        font-size: 12px;
+        color: rgb(235, 235, 26);
+    } */
+
+    .fas{
+        font-size: .3vw;
+    }
+
+    #nav{
+        width: 100vw;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 0;
+        position: absolute;
+    }
+
+    nav{
+        display: flex;
+        align-self: flex-end;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: -6vw;
+        margin-right: 2vw;
+    }
+
+    .med{
+        border: none;
+        outline: none;
+        width: 5vw;
+        height: 5vw;
+        border-radius: .6vw;
+        margin: .5vw 1vw .5vw 1vw;
+        font-size: .8vw;
+    }
+
+    .logo{
+        display: flex;
+        align-self: flex-start;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: -3vw;
+        font-size: .6vw;
+    }
+
+    .normL{
+        display: none;
+    }
+
+    .medLogo{
+        display: block;
+        margin-left: 3vw;
+        margin-top: -2vw;
+
+    }
+
+    h1>.name{
+        font-size: 1.5vw;
+    }
+
+    .icon{
+        font-size: .2vw;
+    }
+
+}
+
+@media only screen and (max-width: 570px) {
+    nav{
+        margin-top: -10vw;
+    }
+}

@@ -1,0 +1,20 @@
+@media only screen and (max-width: 801px) {
+    .home{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 5vw;
+    }
+
+    div.words> p {
+        color: #A49393;
+        margin-top: 15px;
+        font-size: calc(1px + 2vw);
+        font-family: 'Jost', sans-serif;
+        padding-right: 20px;
+    }
+
+    div.words> p.guide{
+        margin-top: 25px;
+    }
+
+}

@@ -1,0 +1,17 @@
+@media only screen and (max-width: 801px) {
+    .comment{
+        margin-top: 13vw;
+    }
+
+    .eachComment{
+        border-radius: 1vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 570px) {
+    .comment{
+        margin-top: 22vw;
+    }
+}

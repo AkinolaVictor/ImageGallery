@@ -1,0 +1,132 @@
+:root{
+    --mainBlue: #2a2a72;
+    --lightBlue: #009ffd;
+    --mainWhite: #f3f3f3;
+    --mainDark: #472D2D;
+    --mainYellow: #ffa400;
+    --skyBlue: #F5F1F1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* font-family: 'Oswald', sans-serif !important; */
+    font-family: 'Jost', sans-serif !important;
+    background: var(--skyBlue) !important;
+    color: var(--mainDark) !important;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 12% 80%;
+    grid-column-gap: 20px;
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 9vh;
+    font-family: inherit;
+    margin-top: 20px;
+    font-size: 0px;
+    background: var(--skyBlue);
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 8px;
+    box-shadow: -3px -3px 5px white,
+                 3px 3px 5px #b9bbc5;
+}
+
+.button{
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 0px;
+    background: var(--skyBlue);
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 15px;
+    box-shadow: -3px -3px 5px white,
+                 3px 3px 5px #b9bbc5;
+}
+
+
+
+button:hover{
+    box-shadow: inset -3px -3px 5px white,
+                inset 3px 3px 5px #b9bbc5; 
+    transition: 0.5s;
+    font-size: 13px;
+}
+
+p.name{
+    font-size: 0px;
+}
+
+.hover{
+    box-shadow: inset -3px -3px 5px white,
+                inset 3px 3px 5px #b9bbc5; 
+    transition: 0.6s;
+    font-size: 13px;
+}
+
+.hover2{
+    box-shadow: inset -3px -3px 5px white,
+                inset 3px 3px 5px #b9bbc5;
+}
+
+#nav{
+    width: 80px;
+    height: 100vh;
+    position: fixed;
+    background: var(--skyBlue);
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 0px white,
+                5px 5px 5px #b9bbc5;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.logo{
+    padding-top: 30px;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+i.icon{
+    font-size: 15px;
+}
+
+.medLogo{
+    display: none;
+}
+/*
+i.icon:hover,
+i.icon:focus{
+    font-size: 0;
+    transition: 1s;
+}
+
+p.name{
+    font-size: 0px;
+}
+
+p.name:hover,
+p.name:focus{
+    font-size: 15px;
+    transition: 1s;
+}
+
+*/

@@ -1,0 +1,31 @@
+@media only screen and (max-width: 801px) {
+    .search-container{
+        text-align: center;
+        margin: 12vw auto auto auto;
+    }
+
+.eachcontent{
+    width: 28vw !important;
+    height: 30vw !important;
+}
+
+.BookReciever{
+    /*margin-top: calc(80px - 70px);*/
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-column-gap: 4vw !important;
+}
+
+.eachbooK{
+    width: 24vw !important;
+    height: 30vw !important;
+}
+
+}
+
+@media only screen and (max-width: 570px) {
+    .search-container{
+        margin: 18vw auto auto auto;
+    }
+}

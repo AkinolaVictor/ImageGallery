@@ -1,0 +1,42 @@
+@media only screen and (max-width: 801px) {
+    .boardw{
+        margin-top: 15vw;
+        margin-left: 8vw;
+        margin-right: auto;
+    }
+
+.eachcontent{
+    width: 25vw !important;
+    height: 30vw !important;
+}
+
+.BookReciever{
+    /*margin-top: calc(80px - 70px);*/
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-column-gap: 4vw !important;
+}
+
+.eachbooK{
+    width: 21vw !important;
+    height: 28vw !important;
+}
+
+.board{
+    margin-left: 40vw;
+    margin-top: 25vw;
+}
+
+}
+
+@media only screen and (max-width: 570px) {
+    .boardw{
+        margin-top: 26vw;
+    }
+
+    .board{
+        margin-left: 40vw;
+        margin-top: 30vw;
+    }
+}

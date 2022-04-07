@@ -1,0 +1,95 @@
+.search-container{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.search-button{ 
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.search-screen{
+    margin-top: 15px;
+    width: 250px;
+    height: 30px;
+}
+
+.texts{
+    border: 0;
+    width: 230px;
+    height: 30px;
+    color: inherit;
+    border-radius: 10px;
+    background: inherit;
+    outline: none;
+    padding-left: 10px;
+}
+
+.cart{
+    float: right;
+    width: 80px;
+    height: 40px;
+}
+
+.fetch{
+    width: 70px;
+    height: 30px;
+    margin-right: 9px;
+    margin-top: 0px;
+    border-radius: 8px;
+    font-size: 13px;
+    position: sticky;
+}
+
+.edit{
+    float: left;
+    width: 16%;
+    height: auto;
+    margin-top: 0%;
+    padding-bottom: 5px;
+}
+
+.cart-detail{
+    margin-top: -100px;
+}
+
+.hide{
+    display: none;
+}
+
+.content{
+    margin-top: 170px;
+}
+
+/*each fetch*/
+
+
+
+.resize{
+    width: 100%;
+    height:30px;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+button.resize:hover{ 
+    box-shadow: -3px -3px 5px white,
+                 3px 3px 5px #b9bbc5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.picMaker{
+    margin-top: 0;
+}

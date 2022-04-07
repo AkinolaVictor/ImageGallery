@@ -1,0 +1,83 @@
+.comment{
+    margin: auto;
+}
+
+.commentSize{
+    width: 28vw;
+    height: 35vw;
+    padding-left: 1vw;
+    border-radius: 1vw;
+}
+
+span{
+    font-size: 2vw;
+}
+
+.nms{
+    padding: 0;
+    margin: 0;
+}
+
+.nmz{
+    font-size: 1.5vw;
+    padding-top: 2vw;
+}
+
+.dname{
+    margin-left: .1vw;
+    margin-top: 2.3vw;
+}
+
+.commentBox{
+    margin-top: 15%;
+    padding-top: 0;
+    width: 25vw;
+    height: 10vw;
+    font-size: calc(1px + 1vw);
+    border-radius: .7vw;
+    border: 0;
+    color: inherit;
+    background: inherit;
+    outline: none;
+    padding-left: 10px;
+    text-align: start;
+    vertical-align: text-top;
+}
+
+.msgz{
+    font-size: .9vw;
+    margin-top: 3vw;
+}
+
+.theComment{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.eachComment{
+    margin-top: 2vw;
+    width: 70vw;
+    height: auto;
+    font-size: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    border-radius: 1vw;
+}
+
+.numbz{
+    float: right;
+    margin-top: -2vw;
+}
+
+.replys{
+    font-size: .8vw;
+    width: auto;
+    height: auto;
+    padding: .3vw;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    border-radius: .2vw;
+}
